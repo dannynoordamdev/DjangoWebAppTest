@@ -25,8 +25,7 @@ SECRET_KEY = 'django-insecure-&sz5f!77w()pkh7p=+%a_z(s72$gf_!e3votdp$aaqj3db80@#
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['django-my-django-app.7re84m.easypanel.host']
 
 # Application definition
 
@@ -122,3 +121,4 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
